@@ -17,8 +17,7 @@
     <header class="container">
         <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -57,24 +56,19 @@
             <div class="col-12 col-sm-6">
                 <form action="" method="post">
                     <div class="mb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
-                            class="form-control shadow">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo Electrónico"
-                            class="form-control shadow">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo Electrónico" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Número de Teléfono"
-                            class="form-control shadow">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Número de Teléfono" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <textarea name="txtMensansaje" id="txtMensansaje" placeholder="Escriba aquí su mensaje"
-                            class="form-control shadow"></textarea>
+                        <textarea name="txtMensansaje" id="txtMensansaje" placeholder="Escriba aquí su mensaje" class="form-control shadow"></textarea>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" id="btnEnviar" name="btnEnviar"
-                            class="btn btn-blanco shadow-btn-C px-4">ENVIAR</button>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-blanco shadow-btn-C px-4">ENVIAR</button>
                     </div>
                 </form>
             </div>

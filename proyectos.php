@@ -17,8 +17,7 @@
     <header class="container">
         <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -77,7 +76,8 @@
                     <img src="images/abmventas.png" alt="ABMventas" class="img-fluid">
                     <h2 class="p-3 d-block">SISTEMA DE GESTIÓN DE VENTAS</h2>
                     <p class="p-3 pb-5 d-block">Sistema de gestión de clientes, productos y ventas. Realizado en
-                        <span>HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL</span> de base de datos.</p>
+                        <span>HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL</span> de base de datos.
+                    </p>
                     <div class="row my-5">
                         <div class="col-6 ps-4">
                             <a href="" target="_blank" class="btn btn-rojo">Ver online</a>
