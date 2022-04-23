@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="inicio">
+<body id="contacto">
     <header class="container">
         <nav class="navbar navbar-expand-md mb-4">
             <div class="container-fluid">
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link px-4 py-1" aria-current="page" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link px-4 py-1 active" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -46,20 +46,37 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-12 mt-4 text-center div-cohete">
-                <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+            <div class="col-12 pt-3 pb-5">
+                <h1>Contacto</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
-                <div class="input-home">
-                    <p class="p-1">Bienvenid@ a mi portfolio web.</p>
-                </div>
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes conmigo.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <a href="proyectos.html" class="btn btn-blanco shadow-btn">Explora mis proyectos</a>
+            <div class="col-12 col-sm-6">
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
+                            class="form-control shadow">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo Electrónico"
+                            class="form-control shadow">
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Número de Teléfono"
+                            class="form-control shadow">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="txtMensansaje" id="txtMensansaje" placeholder="Escriba aquí su mensaje"
+                            class="form-control shadow"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" id="btnEnviar" name="btnEnviar"
+                            class="btn btn-blanco shadow-btn-C px-4">ENVIAR</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
