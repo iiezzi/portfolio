@@ -2,6 +2,31 @@
 
 $pg="contacto";
 
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+
+$para  = "iezzi.2011@hotmail.com"; 
+$título = 'Mensaje enviado desde tu web';
+
+$cuerpo = "
+Nombre: $nombre <br>
+Corre: $correo <br>
+Telefono: $telefono <br>
+Mensaje: $mensaje <br>
+";
+
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+$cabeceras .= "To: iezzi.2011@hotmail.com ". "\r\n";
+$cabeceras .= 'From: contacto@iezzi.com.ar' . "\r\n";
+
+//mail($para, $título, $mensaje, $cabeceras);
+header("Location: confirmacion.php");
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
