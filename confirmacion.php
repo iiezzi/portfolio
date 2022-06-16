@@ -29,7 +29,7 @@ $pg="contacto";
         </div>
         <div class="row">
             <div class="col-12 col-sm-6">
-                <p>Gracias por comunicarte conmigo.</p>
+                <p>Gracias por comunicarte, su mensaje sera respondido en un plazo de 48hs.</p>
             </div>
         </div>
     </main>
